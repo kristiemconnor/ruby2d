@@ -11,7 +11,7 @@ update do
     set background: 'random'
   end
   tick += 1
-  if Time.now - t > 10
+  if Time.now - t > 6
     then close
   end
 end

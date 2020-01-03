@@ -7,6 +7,10 @@ s = Square.new(
   color: [255, 0, 0, 0.6]
   )
 
+s2 = Square.new(
+  x: 100, y: 100, size: 360,
+  color: [0, 204, 0, 0.7]
+  )
 
 
 t = Time.now 

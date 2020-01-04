@@ -26,10 +26,17 @@ on :key_down do |event|
   end
 end
 
+
 update do
   @square.x += @x_speed
   @square.y += @y_speed
+  # if !@square
+  #   then close
+  # end
+
 end
+
+
 
 
 

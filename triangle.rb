@@ -9,4 +9,16 @@ Triangle.new(
   color: ['purple', 'green', 'yellow']
 )
 
+
+t = Triangle.new
+t.x1 = 50
+t.y3 = 25
+t.color = 'yellow'
+
+Circle.new(
+  x: 200, y:175,
+  radius: 150,
+  sectors: 32,
+  color: 'fuchsia',
+  z: 3000)
 show
